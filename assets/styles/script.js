@@ -6,6 +6,8 @@ menuToggle.addEventListener('click', () => {
     menu.classList.toggle('active');  // Toggle kelas 'active' untuk menampilkan atau menyembunyikan menu
 });
 
+
+// Js untuk gambar slider
 let slideIndex = 0;
 
 function moveSlide(n) {
