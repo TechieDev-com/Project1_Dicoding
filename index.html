@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lombok Trip</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>Lombok Trip</h1>
+      </div>
+      <nav>
+        <ul id="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Wisata</a></li>
+          <li><a href="#">Tips</a></li>
+          <li><a href="#">Kontak</a></li>
+        </ul>
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <h2>Wisata Populer di Lombok</h2>
+        <div class="wisata-list">
+          <div class="wisata-item">
+            <img
+              src="assets/picture/Pantai-Kuta-Lombok.jpg"
+              alt="Pantai Kuta Lombok"
+              class="wisata-img"
+            />
+            <h3>Pantai Kuta Lombok</h3>
+            <p>
+              Pantai Kuta di Lombok adalah salah satu pantai terbaik yang
+              menawarkan pasir putih dan ombak yang cocok untuk surfing.
+            </p>
+          </div>
+          <div class="wisata-item">
+            <img
+              src="assets/picture/Rinjani.jpg"
+              alt="Gunung Rinjani"
+              class="wisata-img"
+            />
+            <h3>Gunung Rinjani</h3>
+            <p>
+              Gunung Rinjani adalah gunung berapi aktif yang menawarkan
+              pemandangan spektakuler dan trek hiking yang menantang.
+            </p>
+          </div>
+          <div class="wisata-item">
+            <img
+              src="assets/picture/Gili Trawangan.jpg"
+              alt="Gili Trawangan"
+              class="wisata-img"
+            />
+            <h3>Gili Trawangan</h3>
+            <p>
+              Gili Trawangan adalah pulau kecil yang terkenal dengan keindahan
+              bawah lautnya, sempurna untuk snorkeling dan diving.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <aside>
+        <h3>Tips Wisata Lombok</h3>
+        <div class="tips-container">
+          <div class="tip-item">
+            <img
+              src="assets/picture/hike-icon.svg"
+              alt="Icon 1"
+              class="tip-icon"
+            />
+            <div class="tip-content">
+              <h4>Persiapkan Fisik untuk Pendakian</h4>
+              <p>
+                Gunung Rinjani adalah salah satu pendakian paling populer di
+                Indonesia. Persiapkan diri Anda dengan latihan fisik dan
+                pastikan membawa perlengkapan hiking yang sesuai.
+              </p>
+            </div>
+          </div>
+          <div class="tip-item">
+            <img
+              src="assets/picture/cloud-fog-icon.svg"
+              alt="Icon 2"
+              class="tip-icon"
+            />
+            <div class="tip-content">
+              <h4>Cek Cuaca Sebelum Berangkat</h4>
+              <p>
+                Lombok memiliki cuaca tropis yang bisa berubah cepat. Pastikan
+                Anda memeriksa ramalan cuaca agar perjalanan Anda tetap nyaman
+                dan aman.
+              </p>
+            </div>
+          </div>
+          <div class="tip-item">
+            <img
+              src="assets/picture/do-not-litter-symbol-icon.svg"
+              alt="Icon 2"
+              class="tip-icon"
+            />
+            <div class="tip-content">
+              <h4>Jaga Kebersihan Alam</h4>
+              <p>
+                Pastikan Anda tidak meninggalkan sampah di alam. Bawalah kantong
+                plastik untuk sampah Anda dan bantu menjaga keindahan alam
+                Lombok.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <h3>Gambar Wisata Lombok</h3>
+        <div class="slider-container">
+          <div class="slider">
+            <img
+              src="assets/picture/Pantai-Kuta-Lombok.jpg"
+              alt="Gambar Wisata Lombok 1"
+            />
+            <img
+              src="assets/picture/Rinjani.jpg"
+              alt="Gambar Wisata Lombok 2"
+            />
+            <img
+              src="assets/picture/Gili Trawangan.jpg"
+              alt="Gambar Wisata Lombok 3"
+            />
+          </div>
+          <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+          <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+      </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Lombok Trip. All Rights Reserved.</p>
+    </footer>
+
+    <script src="assets/styles/script.js"></script>
+  </body>
+</html>
